@@ -1,7 +1,15 @@
-* {
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #962219;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
     background-image: url('../images/Dirt.png');
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.2;
 }
