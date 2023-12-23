@@ -2,14 +2,35 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #962219;
 }
 
 body{
+    background-color: #962219;
+}
+
+.dirt{
     width: 100vw;
     height: 100vh;
     background-image: url('../images/Dirt.png');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.2;
+    opacity: 0.30;
+}
+
+.pattern{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/Pattern.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.50;
+}
+
+.vectors{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Images/new.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
 }
