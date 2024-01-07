@@ -4,15 +4,33 @@
     padding: 0;
 }
 
-/* Black Border */
-.pattern{
-    position: absolute;
-    width: 1440px;
-    height: 1024px;
-    left: calc(50% - 1440px/2);
-    top: 0px;
+body{
+    background-color: #962219;
+}
 
-    background: url(../Images/Pattern.png);
-    mix-blend-mode: multiply;
-    opacity: 0.3;
+.dirt{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/Dirt.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.30;
+}
+
+.pattern{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/Pattern.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.50;
+}
+
+.vectors{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Images/new.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
 }
