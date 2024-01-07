@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #962219;
+    background-color: #bb3030;
 }
 
 .dirt{
@@ -14,7 +14,9 @@ body{
     background-image: url('../images/Dirt.png');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.30;
+    opacity: 0.2;
+
+    z-index: 1;
 }
 
 .pattern{
@@ -23,7 +25,8 @@ body{
     background-image: url('../images/Pattern.png');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.50;
+    opacity: 0.4;
+    z-index: 2;
 }
 
 .vectors{
@@ -32,5 +35,6 @@ body{
     background-image: url('../Images/new.png');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.70;
+    opacity: 0.9;
+    z-index: 3;
 }
